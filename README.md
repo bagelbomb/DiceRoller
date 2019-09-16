@@ -1,10 +1,10 @@
-# <Dice Roller>
+# Dice Roller
 
 An Android application that simulates a dice roll.
 
-Submitted by: <Tanner Iverson>
+Submitted by: Tanner Iverson
 
-Time spent: <about 1 hour>
+Time spent: about 1 hour
 
 ## User Stories
 
@@ -27,12 +27,13 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
+Describe any challenges encountered while building the app.
 Android Studio Source Compatibility and Target Compatibility (In Project Structure - Modules) needed to
 be set to Java 8 (1.8) for the lambda to work.
 
 ## License
 
-Copyright 2019 <Tanner Iverson>
+Copyright 2019 Tanner Iverson
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

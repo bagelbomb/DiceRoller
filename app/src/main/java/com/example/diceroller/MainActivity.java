@@ -13,11 +13,14 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
+    ImageView diceImage;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        diceImage = findViewById(R.id.dice_image);
         Button rollButton = findViewById(R.id.roll_button);
 
         rollButton.setText("Let's Roll");
@@ -30,11 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void rollDice() {
 
-        //TextView resultText = findViewById(R.id.result_text);
         int randomInt = new Random().nextInt(6) + 1;
-
-        //resultText.setText(Integer.toString(randomInt));
-
         int drawableResource;
 
         switch (randomInt) {
@@ -57,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 drawableResource = R.drawable.dice_6;
         }
 
-        ImageView diceImage = findViewById(R.id.dice_image);
         diceImage.setImageResource(drawableResource);
 
     }

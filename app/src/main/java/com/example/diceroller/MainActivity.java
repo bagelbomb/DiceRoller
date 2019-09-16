@@ -25,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
         rollButton.setText("Let's Roll");
 
-        // Lambda only works with compatibility set to Java 8, hope that doesn't cause problems
+        // Lambda only works with compatibility set to Java 8 (1.8)
+        // (Source Compatibility and Target Compatibility in Project Structure - Modules), hope
+        // that doesn't cause problems
         rollButton.setOnClickListener(e -> {
             rollDice();
         });

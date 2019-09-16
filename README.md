@@ -27,7 +27,8 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Android Studio Source Compatibility and Target Compatibility (In Project Structure - Modules) needed to
+be set to Java 8 (1.8) for the lambda to work.
 
 ## License
 
